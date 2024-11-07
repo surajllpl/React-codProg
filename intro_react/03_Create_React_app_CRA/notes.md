@@ -25,5 +25,6 @@
     - render App component in root element
     - when you creating component First letter must be capital 
     - StricMode - for needed warning <React.StricMode></React.StricMode>
+# Open Port : http://loclhost:3000/
 
 
