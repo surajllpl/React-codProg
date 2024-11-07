@@ -38,4 +38,22 @@
 
 # Open Port : http://loclhost:3000/
 
+# React Component -
+    - creating componet 
+        - in src folder : create HelloWorld.jsx file
+        - create function HelloWorld and export it as :export default HelloWorld
+        - import HelloWorld in index.js and render it in root element
+        - you can export component two ways
+            1. export default HelloWorld
+            2. export {HelloWorld};
+
+        - import it in index.js like
+            1. import HelloWorld from './HelloWorld'
+            2. import {HelloWorld} from './HelloWorld'
+
+        - in src folder : create App.jsx file
+        
+
+
+
 
