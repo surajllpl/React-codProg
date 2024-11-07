@@ -25,8 +25,9 @@
         - setupTests.js
 
 # open index.html // in public path
-    - tere is one div that having the id its value is root
+    - there is one div that having the id its value is root
     <div id ="root"></div>
+    get thid <div> and render  <h1>Hello World</h1>
 # open index.js // in src path
     - import react from node_module
     - import ReactDOM from node_module
