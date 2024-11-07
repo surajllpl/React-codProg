@@ -12,8 +12,17 @@
 
 # cd my-app
 # Open Terminal - npm start // it open or run application in localhost browser
+# webpack compiled successfully
 
 # src folder is main folder
+# src : delete 
+        - App.css
+        - App.js  // recreate 
+        - App.test.js
+        - index.css
+        - log.svg
+        - reportWebVitals.js
+        - setupTests.js
 
 # open index.html // in public path
     - tere is one div that having the id its value is root
@@ -25,6 +34,7 @@
     - render App component in root element
     - when you creating component First letter must be capital 
     - StricMode - for needed warning <React.StricMode></React.StricMode>
+
 # Open Port : http://loclhost:3000/
 
 
