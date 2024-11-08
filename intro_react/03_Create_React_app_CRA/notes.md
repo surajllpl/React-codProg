@@ -61,13 +61,31 @@
         - it show the component in Inscpect mode
 
 # JSX Rules :
-    -  How to apply css
+    - How to apply css
         - create .css file and import the .css file in jsx file
         - using className not used class it is reserved word
     - How to access javascript in JSX 
         - using {javascript code} in JSX
         - used <h1>{firstName}</H1> etc.
         - function acessing: <h1>Hello, {firstName("test")}</h1>
+
+# Apply CSS in JSX & Conditional classes
+- inline css
+    - directly apply css in JSX element using style={color : "red"}
+    - Using Object assign object to style ={cssObject}
+- external css
+    - create .css file and import the .css file in jsx file
+        className = "bg-dark"
+    - using className not used class it is reserved word
+- using conditional classes
+    className= {isDarkMode?'bg-dark':null} : 
+    - isDarlMode is true it set bg-dark else it false then set null
+- using && operator
+    className= {isDarkMode &&'bg-dark'}
+    - if isDarkMode is true then bg-dark apply
+- multiple classes with conditional
+    className= {`container ${isDarkMode? "bg-dark":""}`}
+    
 
 
         

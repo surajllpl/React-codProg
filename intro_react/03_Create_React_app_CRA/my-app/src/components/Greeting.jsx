@@ -13,9 +13,30 @@ function Greeting() {
     return name.toUpperCase();
   }
   
+  // inline css using object
+  const cssStyle={
+    backgroundColor :"lightblue",
+    fontFamily :"sans-serif",
+    margin : "1rem",
+    padding :"1rem"
+  }
+  const isSansSerif = false;
+  const isDarkMode = false;
 
   return (
-    <div className='bg-dark'> 
+    // // <div style={cssStyle}> // using cssStyle object
+    //   /* using conditional checked and apply css  */
+    // <div style={{
+    //   backgroundColor :"lightblue",
+    //   fontFamily :isSansSerif?"sans-serif":"serif", 
+    //   margin : "1rem",
+    //   padding :"1rem"
+    // }}> {/* // using inline css */}
+
+    // conditional class name//
+    // <div className= {isDarkMode?'bg-dark':null}> 
+    // <div className= {isDarkMode &&'bg-dark'}> 
+    <div className= {`container ${isDarkMode? "bg-dark":""}`}> 
       <h1>Hello, {firstName("suraj")}</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis provident voluptates natus eius, reprehenderit nihil!</p>
         {/* <h2>Form</h2>
