@@ -1,21 +1,21 @@
 # Create React App using CRA
-# Install Node in System
-# Install Node Package Manager (npm) in System
-# Open Terminal - node --version
-# Open Terminal - npm --version
+    - Install Node in System
+    - Install Node Package Manager (npm) in System
+    - Open Terminal - node --version
+    - Open Terminal - npm --version
 
-# crate new folder
-# open terminal in folder location
-# command for create React App - npx create-react-app my-app
+    - crate new folder
+    - open terminal in folder location
+    - command for create React App - npx create-react-app my-app
 
 # Open in VSCode - code .
 
-# cd my-app
-# Open Terminal - npm start // it open or run application in localhost browser
-# webpack compiled successfully
+    - cd my-app
+    - Open Terminal - npm start // it open or run application in localhost browser
+- webpack compiled successfully
 
-# src folder is main folder
-# src : delete 
+- src folder is main folder
+# src : Delete 
         - App.css
         - App.js  // recreate 
         - App.test.js
