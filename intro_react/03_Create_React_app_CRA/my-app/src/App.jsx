@@ -1,4 +1,4 @@
-import Greeting from "./components/Greeting"
+import Greeting from "./components/GreetingModuleCss"
 function App() {
   return (
     <div className="App">

@@ -85,7 +85,13 @@
     - if isDarkMode is true then bg-dark apply
 - multiple classes with conditional
     className= {`container ${isDarkMode? "bg-dark":""}`}
-    
+
+# CSS Modules
+- CSS Modules is a feature in Webpack that allows you to import CSS files as modules, and use the classes in your CSS file in your JSX file
+- CSS Modules is enabled by default in Create React App
+- CSS Modules allows you to use the classes in your CSS file in your JSX file, and also
+- avoid duplication
+
 
 
         
