@@ -59,7 +59,17 @@
 
         - install react dev tools in chrome browser
         - it show the component in Inscpect mode
-        
+
+# JSX Rules :
+    -  How to apply css
+        - create .css file and import the .css file in jsx file
+        - using className not used class it is reserved word
+    - How to access javascript in JSX 
+        - using {javascript code} in JSX
+        - used <h1>{firstName}</H1> etc.
+        - function acessing: <h1>Hello, {firstName("test")}</h1>
+
+
         
 
 
