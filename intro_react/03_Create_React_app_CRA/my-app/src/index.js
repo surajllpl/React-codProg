@@ -1,6 +1,6 @@
 import React from "react"; // it available in nod-module
 import ReactDOM from "react-dom/client";
-import HelloWorld from "./HelloWorld";
+import App from "./App";
 
 function Hello() {
   return (
@@ -13,6 +13,6 @@ function Hello() {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HelloWorld />
+    <App />
   </React.StrictMode>
 );

@@ -52,6 +52,14 @@
             2. import {HelloWorld} from './HelloWorld'
 
         - in src folder : create App.jsx file
+        - import HelloWorld in App.jsx and render it in App component
+        - import App in index.js and render it in root element
+        - App component is main component of application
+        - App component is parent of HelloWorld component
+
+        - install react dev tools in chrome browser
+        - it show the component in Inscpect mode
+        
         
 
 
