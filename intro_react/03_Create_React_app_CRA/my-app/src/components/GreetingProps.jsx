@@ -1,4 +1,5 @@
 import React from 'react'
+import ShowFullName from './ShowFullName'
 
 // function GreetingProps(props) {
 //   console.log(props);//  object 
@@ -17,12 +18,27 @@ import React from 'react'
 
 
 
-function GreetingProps({firstName,lastName,age,users}) {
+// function GreetingProps({firstName,lastName,fullName="Suraj Jagtap"}) { //default props fullName="Suraj Jagtap"
   
-  return (
+  
+//   return (
     
-    <div><h1>Hello, {firstName} {lastName} {age} {users[0]}</h1></div>
+//     // <div><h1>Hello, {firstName} {lastName} {age} {users[0]}</h1></div>
+//   // <div><h1>Hello,{fullName} </h1>
+  
+//   // </div>
+//   <ShowFullName firstName = {firstName} lastName = {lastName}/>
 
+
+//   )
+// }
+
+// export default GreetingProps
+
+function GreetingProps(props) {
+ 
+  return (
+  <ShowFullName {...props}/>
   )
 }
 

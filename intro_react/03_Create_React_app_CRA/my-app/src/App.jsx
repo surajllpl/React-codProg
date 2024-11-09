@@ -7,12 +7,14 @@ function App() {
   return (
     <div className="App">
        
-        <GreetingProps firstName = "Suraj" lastName = "Jagtap" age = {25} users ={Users}/> 
+        {/* <GreetingProps firstName = "Suraj" lastName = "Jagtap" age = {25} users ={Users}/>  */}
         {/* <GreetingProps firstName = "Shekhar" lastName = "Chavan" age = {25}/>  */}
         {/* <GreetingProps firstName = "Mohan" />  */}
 
         {/* pass props to the child  */}
         
+        <GreetingProps firstName = "Suraj" lastName = "Jagtap" /> 
+
     </div>
   )
 }
