@@ -87,15 +87,17 @@
     className= {`container ${isDarkMode? "bg-dark":""}`}
 
 # CSS Modules
-- CSS Modules is a feature in Webpack that allows you to import CSS files as modules, and use the classes in your CSS file in your JSX file
-- CSS Modules is enabled by default in Create React App
-- CSS Modules allows you to use the classes in your CSS file in your JSX file, and also
-- avoid duplication
+    - CSS Modules is a feature in Webpack that allows you to import CSS files as modules, and use the classes in your CSS file in your JSX file
+    - CSS Modules is enabled by default in Create React App
+    - CSS Modules allows you to use the classes in your CSS file in your JSX file, and also
+    - avoid duplication
 
-
-
-        
-
-
-
-
+# React Props
+- Props is short for properties
+- Props is a way to pass data from a parent component to a child component
+- Props is immutable
+- can't assign value or change value of props.
+- props is only readable
+- you can pass String,Number,Boolean,list, Array,object, function as props
+- you can pass props as a default value
+- you can pass props as a required value
