@@ -101,3 +101,10 @@
 - you can pass String,Number,Boolean,list, Array,object, function as props
 - you can pass props as a default value
 - you can pass props as a required value
+
+# React children props
+- children is a special prop in React that allows you to pass a child component or a string of
+- children can be a single child or multiple children
+- children can be a function that returns a child component or a string of children
+- children can be a list of children with a key and a value
+
