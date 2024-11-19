@@ -108,3 +108,15 @@
 - children can be a function that returns a child component or a string of children
 - children can be a list of children with a key and a value
 
+# React Render List
+- render list of items
+- use map function to render list of items
+- use key to identify each item in the list
+- use index as key is not recommended
+- use unique id as key is recommended
+
+# key props
+- key is a special prop in React that allows you to identify each item in a list
+- key is used to optimize the rendering of the list
+- key is used to prevent the list from being re-rendered unnecessarily
+- key is used to improve the performance of the list
