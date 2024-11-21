@@ -12,7 +12,10 @@ const Users = [
   { id: 4, firstName: "Atul", lastName: "chavan" },
 ];
 //map method can be used in jsx code
-
+//click event
+const clickHandler = () => {
+    console.log("button clicked");
+  };
 function App() {
   return (
     <div className="App">
@@ -45,12 +48,16 @@ function App() {
         return <User {...user} />;
       })} */}
       {/* key props */}
-      {Users.map((user) => { // used when list is dynamic
+      {/* {Users.map((user) => { // used when list is dynamic
         return <User key={user.id} {...user} />;
-      })}
+      })} */}
       {/* {Users.map((user,index) => {  // used index when list is static
         return <User key={index} {...user} />;
       })} */}
+
+        {/* Events - click  */}
+      <h1>Hello</h1>
+      <button onClick={clickHandler}>click me</button>
     </div>
   );
 }
