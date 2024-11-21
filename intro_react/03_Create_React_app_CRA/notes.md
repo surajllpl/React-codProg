@@ -126,3 +126,26 @@
 - click Events
 - onClick event handle useing function that can action apper when event is called.
 - onMouseOver
+
+# State
+- State is a way to store data in React
+- State is mutable
+- State is used to store data that can change over time
+- functional components - 
+- class components - use this.state to access state
+- use setState to update state
+
+- hooks - 
+- use state to store data
+- In react we can not used normal veriables to change the UI.
+- we can use state to change the UI.
+- when change state then UI render again and change updated on UI.
+
+- useState()
+- useState(defaultvalue) -----> it return array[stateValue,functionToUpdateThatStateValue]
+- useState call directly components not call outside of component within function 
+
+
+
+
+
