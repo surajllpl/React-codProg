@@ -2,7 +2,7 @@ import React from "react"; // it available in nod-module
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import App_Event from "./App_Event";
-import App_state from "./components/App_state";
+import App_state from "./App_state";
 
 function Hello() {
   return (
