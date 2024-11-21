@@ -3,7 +3,11 @@ import React, { useState } from 'react'
 function Counter_State() {
     const [count, setCount] = useState(0);
     function handleIncrease(){
-        setCount(count + 1);
+        // setCount(count + 1);
+        // setCount((previousState)=>{  //Update state using callback
+        //     return previousState +1;
+        // })
+        setCount((previousState)=> previousState + 1);
     }
     function handleDecrease(){
         setCount(count - 1);
