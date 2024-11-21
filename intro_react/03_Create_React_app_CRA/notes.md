@@ -120,3 +120,9 @@
 - key is used to optimize the rendering of the list
 - key is used to prevent the list from being re-rendered unnecessarily
 - key is used to improve the performance of the list
+
+# Events
+- Events is a way to handle user interactions in React
+- click Events
+- onClick event handle useing function that can action apper when event is called.
+- onMouseOver
