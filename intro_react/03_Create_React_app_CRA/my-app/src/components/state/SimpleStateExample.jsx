@@ -5,8 +5,11 @@ import React, { useState } from 'react'
 
 // useState()
 // - useState(defaultvalue) -----> it return array[stateValue,functionToUpdateThatStateValue]
-// - useState call directly components not call outside of component within functio
+// - useState call directly components not call outside of component within function
 function SimpleStateExample() {
+    
+    // first example //
+
     // let firstName ="Suraj"; // variable cannont rerender the UI.
     // function handleChangeName(){  // in react we cannot use normal veriable to change the UI.
     //     firstName = "Mohan";
@@ -16,6 +19,7 @@ function SimpleStateExample() {
     // const returnValue = useState("Suraj");
     // const firstName = returnValue[0];
     // const updateFirstName = returnValue[1];
+    // state used for update UI changes
     const [firstName, setFirstName] = useState("Suraj");
     function handleChangeName(){
         if(firstName === "Suraj"){

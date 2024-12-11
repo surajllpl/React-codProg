@@ -1,10 +1,25 @@
-import React from 'react'
-import Counter_State from './components/Counter_State'
+import React, { useState } from 'react'
+// import CounterState from './components/state/Counter_State'
+import StateArray from './components/state/State_Array'
+// import SimpleStateExample from './components/state/SimpleStateExample';
 
 function App_state() {
+    const [fruits,setFruits] = useState(["Apple","Mango","Banana"]);
+    function handleAddFruit(){
+        console.log("add fruit");
+        setFruits([...fruits,"Grapes"])
+    }
   return (
     <div>
-        <h1><Counter_State /></h1>
+      {/* <SimpleStateExample />  */}
+        {/* < CounterState /> */}
+        <h1><StateArray /></h1> 
+        <ul>
+            {fruits.map((fruit, index) => (
+                <li key={index}>{fruit}</li>
+                ))}
+        </ul>
+        <button onClick={handleAddFruit}>Add Fruit</button>
     </div>
   )
 }
