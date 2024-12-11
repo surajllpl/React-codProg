@@ -131,7 +131,7 @@
 - State is a way to store data in React
 - State is mutable
 - State is used to store data that can change over time
-- functional components - 
+- functional components - you can only call state (useState, useEffect) within the function component.
 - class components - use this.state to access state
 - use setState to update state
 
