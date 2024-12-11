@@ -10,10 +10,19 @@ function StateObject() {
         age : 35,
     });
     const increageAge = () =>{
-       setPerson({
-        ...person,
-        age : person.age + 1,
-       });
+    //    setPerson({
+    //     ...person,
+    //     age : person.age + 1,
+    //    });
+    // // another way to do it by using callback
+    //    setPerson((prevState)=>{
+    //     return {
+    //         ...prevState,
+    //         age : prevState.age + 1,
+    //     }
+    //    });
+    // // another way return object
+       setPerson((prevState)=>({...prevState,age:prevState.age+ 1}));
     }
   return (
     <div>
