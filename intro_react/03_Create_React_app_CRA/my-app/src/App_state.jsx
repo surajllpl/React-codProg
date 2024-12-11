@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 // import CounterState from './components/state/Counter_State'
 import StateArray from './components/state/State_Array'
+import StateObject from './components/state/StateObject'
 // import SimpleStateExample from './components/state/SimpleStateExample';
 
 function App_state() {
@@ -9,7 +10,8 @@ function App_state() {
     <div>
       {/* <SimpleStateExample />  */}
         {/* < CounterState /> */}
-        <h1><StateArray /></h1> 
+        {/* <StateArray /> */}
+        <StateObject />
        
     </div>
   )
