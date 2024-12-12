@@ -145,6 +145,10 @@
 - useState(defaultvalue) -----> it return array[stateValue,functionToUpdateThatStateValue]
 - useState call directly components not call outside of component within function 
 
+# Staye Example
+- create AppStateExample .jsx file
+- this file having Users Detals in a state
+- Users details send to the Users.jsx file using props
 
 
 
