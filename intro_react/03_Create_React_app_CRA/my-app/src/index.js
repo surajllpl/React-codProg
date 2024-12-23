@@ -1,4 +1,4 @@
-import React from "react"; // it available in nod-module
+import React from "react"; // it available in node-module
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import App_Event from "./App_Event";
