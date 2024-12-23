@@ -14,9 +14,11 @@ function Users({users}) {
         {/* another way to return user details  */}
         {users.map((user)=>{
           return(
-            <div key={user.id}>
+            <div className='user' key={user.id}>
               <p>first name : {user.firstName}</p>
               <p>last name : {user.lastName}</p>
+              <p>age : {user.age}</p>
+
               </div>
           )
         })}
