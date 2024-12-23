@@ -1,4 +1,5 @@
 import React from 'react'
+import User from './User'
 
 function Users({users}) {
     console.log(users)
@@ -12,7 +13,7 @@ function Users({users}) {
           </div>)
         )} */}
         {/* another way to return user details  */}
-        {users.map((user)=>{
+        {/* {users.map((user)=>{
           return(
             <div className='user' key={user.id}>
               <p>first name : {user.firstName}</p>
@@ -21,7 +22,11 @@ function Users({users}) {
 
               </div>
           )
-        })}
+        })} */}
+        {/* another way to return user details  */}
+        {users.map((user)=>(    <User userDetail ={user} />)
+      
+        )}
     </div>
   )
 }
